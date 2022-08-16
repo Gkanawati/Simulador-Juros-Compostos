@@ -2,7 +2,7 @@
 const formPost = document.querySelector("#formPost");
 const request = document.querySelector("#request");
 
-const url = 'http://api.mathjs.org/v4/';
+const url = 'https://api.mathjs.org/v4/';
 
 formPost.onsubmit = function (event) {
     event.preventDefault()

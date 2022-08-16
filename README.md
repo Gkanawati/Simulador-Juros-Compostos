@@ -6,11 +6,11 @@
 
 Esse projeto foi construído como simulação de um teste real de vaga de emprego.
 
-A ideia era seguir o mockup(design) disponibilizado, fazer validação de formulários e conectar com uma API externa de produtos.
+A ideia do teste é construir uma aplicação que faz uma simulação de investimento utilizando juros compostos.
 
-o maior desafio pessoal no projeto foi realizar a consulta da API de forma paginada, de forma que, ao clicar no botão, uma nova requisição é feita e os próximos produtos são adicionados.
+O maior desafio pessoal no projeto foi realizar a consulta da API utilizando o método POST, pois deve-se enviar para um body p/ a API, contendo as informações que o usuário ira simular e utilizar esses valores para gerar a resposta, que vem como resposta da API.
 
-Algumas funcionalidades adicionais foram implementadas a fim de melhorar a experiência do usuário, como Efeito de loading ao clicar para carregar mais produtos, validação de email e cpf nos campos de formulário e também um Scroll suave ao clicar nos botões so topo para direcionar às seções, feito com Js puro. 🚀🧑‍🚀
+Algumas funcionalidades adicionais foram implementadas a fim de melhorar a experiência do usuário, como Efeito de loading ao clicar para simular novamente, validação de preenchimento das informações nos campos de formulário. 🚀🧑‍🚀
 
 ## :bulb: Tecnologias usadas:
 
@@ -21,7 +21,7 @@ Algumas funcionalidades adicionais foram implementadas a fim de melhorar a exper
 ## :link: Link do Projeto:
 
 ```
-https://gkanawati.github.io/Teste-Vaga-Landing-Page/
+https://gkanawati.github.io/Simulador-Juros-Compostos/
 ```
 
 </div>
@@ -30,10 +30,10 @@ https://gkanawati.github.io/Teste-Vaga-Landing-Page/
 
 <div align='center' style="justify-content: center; align-items: center;">
 
-<img src='https://user-images.githubusercontent.com/87530595/184430861-f6b1c569-4767-4887-a428-399bb1dc5ad2.jpeg' height='450' />
+<img src='https://user-images.githubusercontent.com/87530595/184918500-f296cc93-7892-429f-8ea2-cbba951be4f6.jpeg' height='450' />
 
-<img src='https://user-images.githubusercontent.com/87530595/184430866-512880f7-91bc-4dc2-8d7e-b2d7debc1cf6.jpeg' height='450' />
+<img src='https://user-images.githubusercontent.com/87530595/184918498-655fb4dc-6eb1-4dac-87a0-a157283f41db.jpeg' height='450' />
 
-<img src='https://user-images.githubusercontent.com/87530595/184430868-0afacd99-e81b-4c9d-963f-34b32e3b755e.jpeg' height='450' />
+<img src='https://user-images.githubusercontent.com/87530595/184918491-6e8a5bab-d0df-4a34-bc98-076ef2c6bae2.png' height='450' />
 
 </div>
