@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Juros Compostos</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="simulator" class="">
+            <div class="header">
+                <h2>Simulador Juros Compostos</h2>
+                <img id="logo" src="./assets/logo-invest.png" alt="Invest">
+            </div>
+
+            <div id="request" class="hidden"></div>
+
+            <form method="post" id="formPost" class="">
+                <div class="inputContainer">
+                    <label for="inputName">Nome:</label>
+                    <input type="text" name="inputName" id="inputName" placeholder="Seu nome">
+                    <span class="erro"></span>
+                </div>
+
+                <div class="inputContainer">
+                    <label for="inputMonth">Aportes Mensais:</label>
+                    <input type="text" name="inputMonth" id="inputMonth" placeholder="R$ 00,00">
+                    <span class="erro"></span>
+                </div>
+
+                <div class="inputContainer">
+                    <label for="inputJuros">Taxa de Juros:</label>
+                    <input type="text" name="inputJuros" id="inputJuros" placeholder="0.00%">
+                    <span class="erro"></span>
+                </div>
+
+                <div class="inputContainer">
+                    <label for="inputTime">Tempo de contribuição:</label>
+                    <input type="text" name="inputTime" id="inputTime" placeholder="12 meses">
+                    <span class="erro"></span>
+                </div>
+
+                <button type="submit" id="buttonSend">
+                    Simular
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

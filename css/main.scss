@@ -1,0 +1,95 @@
+@import 'base';
+
+.container {
+    max-width: 350px;
+    margin: 0 auto;
+    height: 100vh;
+
+    #simulator {
+        margin-top: 20vh;
+        border: 1px solid #333;
+        border-radius: 8px;
+        text-align: center;
+        padding: 30px 0;
+
+        .header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-bottom: 10px;
+
+            h2 {
+                color: green;
+                max-width: 40%;
+                font-size: 19px;
+            }
+
+            #logo {
+                height: 70px;
+            }
+        }
+
+        form {
+            padding: 0px 35px;
+            padding-bottom: 10px;
+
+            .inputContainer {
+                margin: 15px 0px;
+                text-align: left;
+                height: 60px;
+
+                input {
+                    width: 100%;
+                    height: 30px;
+                    border-radius: 4px;
+                    border: 1px solid #333;
+                    padding-left: 10px;
+                }
+
+                label {
+                    display: block;
+                    text-align: left;
+                    color: #111;
+                    font-weight: 600;
+                }
+            }
+        } 
+    }
+
+    #request {
+        padding: 10px 40px;
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+        span {
+            font-size: 22px;
+            letter-spacing: 0.8px;
+            padding: 10px 0;
+        }
+
+        img {
+            margin-top: 20px;
+        }
+    }
+
+    #request a,
+    button {
+        border: none;
+        border-radius: 4px;
+        width: 100%;
+        height: 35px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: #FFF;
+        background-color: green;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+}
+

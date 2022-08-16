@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  text-rendering: optimizeLegibility !important;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.erro {
+  color: red !important;
+  font-size: 14px;
+}
+
+.inputError {
+  border-color: red !important;
+}
+
+.container {
+  max-width: 350px;
+  margin: 0 auto;
+  height: 100vh;
+}
+.container #simulator {
+  margin-top: 20vh;
+  border: 1px solid #333;
+  border-radius: 8px;
+  text-align: center;
+  padding: 30px 0;
+}
+.container #simulator .header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.container #simulator .header h2 {
+  color: green;
+  max-width: 40%;
+  font-size: 19px;
+}
+.container #simulator .header #logo {
+  height: 70px;
+}
+.container #simulator form {
+  padding: 0px 35px;
+  padding-bottom: 10px;
+}
+.container #simulator form .inputContainer {
+  margin: 15px 0px;
+  text-align: left;
+  height: 60px;
+}
+.container #simulator form .inputContainer input {
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #333;
+  padding-left: 10px;
+}
+.container #simulator form .inputContainer label {
+  display: block;
+  text-align: left;
+  color: #111;
+  font-weight: 600;
+}
+.container #request {
+  padding: 10px 40px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.container #request span {
+  font-size: 22px;
+  letter-spacing: 0.8px;
+  padding: 10px 0;
+}
+.container #request img {
+  margin-top: 20px;
+}
+.container #request a,
+.container button {
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #FFF;
+  background-color: green;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 30px;
+}/*# sourceMappingURL=main.css.map */
